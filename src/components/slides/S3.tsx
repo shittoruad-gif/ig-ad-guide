@@ -20,6 +20,7 @@ export default function S3() {
           <div className="flow-text">
             <strong>現在地（配信エリア）を設定</strong>
             <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>広告は「店舗から半径◯km」でエリアを決めて配信します。<span style={{ color: "#FF5252" }}>必ず店舗にいるとき</span>に、<strong style={{ color: "white" }}>スマホのInstagramアプリ</strong>から操作してください。設定画面で広告出稿の画面に行った後、広告は出さずに戻ってOK。</span>
+            <a href="https://youtu.be/LXgxH8Xd1oA" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "8px", fontSize: "11px", color: "var(--accent)", fontWeight: 700, textDecoration: "none", background: "rgba(124,77,255,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"▶ 現在地設定の動画を見る"}</a>
           </div>
         </div>
         <div className="flow-step">
