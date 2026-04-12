@@ -50,13 +50,13 @@ export default function S2() {
           </div>
           <div className="qnav-badge">解説→テンプレ</div>
         </a>
-        <a href="#s7" className="qnav-item" style={{ borderColor: "var(--red)", borderWidth: "2px" }}>
+        <a href="#s12" className="qnav-item" style={{ borderColor: "var(--red)", borderWidth: "2px" }}>
           <div className="qnav-icon">{"🚨"}</div>
           <div className="qnav-body">
             <div className="qnav-title">広告が止まった（至急）</div>
-            <div className="qnav-desc">まずFAQで対処法を確認</div>
+            <div className="qnav-desc">まず当社にLINEで連絡してください</div>
           </div>
-          <div className="qnav-badge" style={{ background: "var(--red)" }}>解説→テンプレ</div>
+          <div className="qnav-badge" style={{ background: "var(--red)" }}>テンプレ⑨で連絡</div>
         </a>
         <a href="#s7" className="qnav-item">
           <div className="qnav-icon">{"🎯"}</div>

@@ -31,9 +31,9 @@ export default function S7() {
         <div className="card-body">弊社スタッフがログインを試みている可能性があります。コードには<strong>有効期限がある</strong>ため、事前に「今から送ります」とLINEでお声がけいただき、<strong>リアルタイムでコードを共有</strong>してください。時間が経つとコードが無効になり、再度お願いすることになってしまいます。なお、二段階認証を解除（オフ）にしていただくと、この手間がなくなります（初期設定ガイド STEP 05参照）。</div>
       </div>
 
-      <div className="card" style={{ marginBottom: "10px" }}>
-        <div className="card-label">Q. 広告が急に止まりました</div>
-        <div className="card-body">最も多い原因は<strong>クレジットカードのセキュリティロック</strong>です。Meta（Facebook）からの請求は海外決済扱いになることがあり、カード会社が不正利用と判断して自動でブロックすることがあります。<br /><br /><strong>対処法</strong>：お使いのカード会社（カード裏面の電話番号）に連絡し、「Meta（Facebook）からの請求は本人による利用です」と伝えてロックを解除してください。解除後も広告が再開しない場合は、LINEでご連絡ください。</div>
+      <div className="card" style={{ marginBottom: "10px", borderLeft: "3px solid var(--red)" }}>
+        <div className="card-label" style={{ color: "var(--red)" }}>Q. 広告が急に止まりました</div>
+        <div className="card-body"><strong style={{ color: "var(--red)" }}>まずLINEで当社にご連絡ください。</strong>状況を確認し、原因に応じた対処法をお伝えします。ご自身で操作される前に、まずご一報いただくのが最も確実で早い解決方法です。<br /><br />ご連絡の際は、テンプレート⑨「至急：広告停止」をコピーしてお送りいただけるとスムーズです。通知画面のスクリーンショットも添付いただけると助かります。</div>
       </div>
 
       <div className="card" style={{ marginBottom: "10px" }}>
