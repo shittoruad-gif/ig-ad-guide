@@ -1,7 +1,7 @@
 export default function S8() {
   return (
     <section className="slide" id="s8">
-      <div className="pg-num">08 / 15</div>
+      <div className="pg-num">08 / 14</div>
       <div className="chip green">改善チェック</div>
       <h2>予約が取れない時の<br />改善チェックリスト</h2>
       <p className="lead">クリックはあるのに予約が来ない場合、下の「3つのズレ」をまず確認してください。</p>

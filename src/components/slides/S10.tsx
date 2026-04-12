@@ -3,7 +3,7 @@ import CopyButton from "@/components/CopyButton";
 export default function S10() {
   return (
     <section className="slide dark" id="s10">
-      <div className="pg-num">10 / 15</div>
+      <div className="pg-num">10 / 14</div>
       <div className="chip">テンプレート集①</div>
       <h2><span style={{ color: "var(--accent)" }}>コピペで即連絡</span><br />運用相談テンプレ</h2>
       <p className="lead">LINEにコピペして、空欄を埋めるだけ。確認のやり取りが減り、対応が早くなります。</p>

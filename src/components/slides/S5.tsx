@@ -1,7 +1,7 @@
 export default function S5() {
   return (
     <section className="slide" id="s5">
-      <div className="pg-num">05 / 15</div>
+      <div className="pg-num">05 / 14</div>
       <div className="chip">成果の考え方</div>
       <h2>成果は3段階。<br />3ヶ月で安定させる</h2>
       <p className="lead">広告は出した瞬間に魔法のように成果が出るものではありません。</p>

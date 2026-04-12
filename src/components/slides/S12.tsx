@@ -3,7 +3,7 @@ import CopyButton from "@/components/CopyButton";
 export default function S12() {
   return (
     <section className="slide" id="s12">
-      <div className="pg-num">12 / 15</div>
+      <div className="pg-num">12 / 14</div>
       <div className="chip">テンプレート集③</div>
       <h2>動画・修正・停止<br />休止・再開テンプレ</h2>
       <p className="lead">制作・修正依頼や緊急時のテンプレートです。</p>

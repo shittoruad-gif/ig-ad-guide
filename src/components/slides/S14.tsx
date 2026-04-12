@@ -1,62 +1,68 @@
-import CopyButton from "@/components/CopyButton";
-
 export default function S14() {
   return (
-    <section className="slide" id="s14">
-      <div className="pg-num">14 / 15</div>
-      <div className="chip green">LINE対応テンプレ</div>
-      <h2>公式LINEで使える<br />テンプレート返信文例</h2>
-      <p className="lead">公式LINEで患者様・お客様に返信するとき、そのまま使えるテンプレートです。</p>
+    <section className="slide dark" id="s14">
+      <div className="pg-num">14 / 14</div>
+      <div style={{ fontFamily: "'DM Mono',monospace", fontSize: "10px", color: "#555", border: "1px solid #333", display: "inline-block", padding: "3px 10px", borderRadius: "3px", marginBottom: "20px", letterSpacing: ".1em" }}>Summary</div>
 
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">友だち追加時の自動応答</span>
-          <CopyButton targetId="line1" />
-        </div>
-        <div className="tmpl-body" id="line1">{"〇〇【友だちの表示名】さん、友だち追加ありがとうございます。\nご連絡内容を確認後、担当スタッフより順番に返信いたします。\nお急ぎの場合はお電話（◯◯◯-◯◯◯◯-◯◯◯◯）もご利用ください。"}</div>
+      <h2>お互いに気持ちよく<br /><span style={{ color: "var(--accent)" }}>運用するために</span></h2>
+      <p className="lead">広告運用はクライアント様の事業側と連携して成果に近づきます。</p>
+
+      <div className="card featured" style={{ marginBottom: "16px", background: "#1a1a1a", borderColor: "var(--accent)" }}>
+        <div className="card-label">成果を出すために最低限ここだけ</div>
+        <ul className="checklist">
+          <li className="ok" style={{ color: "#aaa" }}><strong style={{ color: "white" }}>広告の目的を1つに決める</strong></li>
+          <li className="ok" style={{ color: "#aaa" }}><strong style={{ color: "white" }}>飛び先（導線）を整える</strong></li>
+          <li className="ok" style={{ color: "#aaa" }}><strong style={{ color: "white" }}>30日単位で回して改善する</strong></li>
+        </ul>
       </div>
 
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">問い合わせへの初期返信</span>
-          <CopyButton targetId="line2" />
-        </div>
-        <div className="tmpl-body" id="line2">{"〇〇【名前】様、メッセージありがとうございます。\n◯◯（店舗名）の△△です。お問い合わせ内容を確認いたしました。\n●●についてご質問ですね。後ほど詳しいご案内をお送りいたしますので少々お待ちくださいませ。"}</div>
+      <div style={{ background: "#1a1a1a", borderRadius: "10px", padding: "16px", marginBottom: "16px" }}>
+        <div style={{ fontSize: "10px", color: "var(--accent)", fontWeight: 700, marginBottom: "8px" }}>お客様にお願いしたいこと</div>
+        <ul className="checklist">
+          <li className="ok" style={{ color: "#aaa" }}>最新情報の共有（価格・メニュー・休診日）</li>
+          <li className="ok" style={{ color: "#aaa" }}>予約枠の確保</li>
+          <li className="ok" style={{ color: "#aaa" }}>飛び先ページの改善</li>
+          <li className="ok" style={{ color: "#aaa" }}>LINE対応のスピード</li>
+        </ul>
       </div>
 
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">予約受付ヒアリング</span>
-          <CopyButton targetId="line3b" />
+      <div style={{ background: "rgba(124,77,255,.15)", border: "1.5px solid var(--accent)", borderRadius: "12px", padding: "18px", marginBottom: "16px" }}>
+        <div style={{ fontSize: "15px", fontWeight: 700, color: "white", marginBottom: "8px", textAlign: "center" }}>連絡するときは<br />テンプレートを使ってください</div>
+        <div style={{ fontSize: "12px", color: "#aaa", lineHeight: 1.7, textAlign: "center", marginBottom: "12px" }}>必要な情報が揃った状態で届くので、確認のやり取りが減り対応が最短になります。</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+          <a href="#s10" style={{ display: "flex", justifyContent: "space-between", padding: "8px 12px", background: "rgba(255,255,255,.08)", borderRadius: "6px", textDecoration: "none", fontSize: "12px" }}>
+            <span style={{ color: "#aaa" }}>運用相談・ミーティング</span>
+            <span style={{ color: "var(--accent)", fontWeight: 700 }}>テンプレ①〜③ →</span>
+          </a>
+          <a href="#s11" style={{ display: "flex", justifyContent: "space-between", padding: "8px 12px", background: "rgba(255,255,255,.08)", borderRadius: "6px", textDecoration: "none", fontSize: "12px" }}>
+            <span style={{ color: "#aaa" }}>改善・設定変更</span>
+            <span style={{ color: "var(--accent)", fontWeight: 700 }}>テンプレ④〜⑥ →</span>
+          </a>
+          <a href="#s12" style={{ display: "flex", justifyContent: "space-between", padding: "8px 12px", background: "rgba(255,255,255,.08)", borderRadius: "6px", textDecoration: "none", fontSize: "12px" }}>
+            <span style={{ color: "#aaa" }}>動画・修正・停止・休止</span>
+            <span style={{ color: "var(--accent)", fontWeight: 700 }}>テンプレ⑦〜⑫ →</span>
+          </a>
+          <a href="#s13" style={{ display: "flex", justifyContent: "space-between", padding: "8px 12px", background: "rgba(255,255,255,.08)", borderRadius: "6px", textDecoration: "none", fontSize: "12px" }}>
+            <span style={{ color: "#aaa" }}>素材・レポート・予算・休診</span>
+            <span style={{ color: "var(--accent)", fontWeight: 700 }}>テンプレ⑬〜⑱ →</span>
+          </a>
         </div>
-        <div className="tmpl-body" id="line3b">{"〇〇様、ご予約希望ありがとうございます。\nスムーズにお取りするため、下記をご返信ください。\n1【お名前（フルネーム）】\n2【ご希望の日時・時間帯】（第2希望まで）\n3【ご希望のメニュー/コース】\n確認でき次第、空き状況をご連絡いたします。"}</div>
       </div>
 
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">日時提案・予約確定</span>
-          <CopyButton targetId="line4b" />
+      <div style={{ background: "#111", borderRadius: "12px", padding: "18px", display: "flex", gap: "14px", alignItems: "center", marginBottom: "20px" }}>
+        <div style={{ fontSize: "28px" }}>{"💬"}</div>
+        <div>
+          <div style={{ fontSize: "14px", fontWeight: 700, color: "white", marginBottom: "4px" }}>テンプレが見つからないとき</div>
+          <div style={{ fontSize: "12px", color: "#aaa", lineHeight: 1.7 }}>LINEで「相談です」とだけ送ってください。担当者が状況を確認します。</div>
         </div>
-        <div className="tmpl-body" id="line4b">{"お名前とご希望日時をありがとうございます。\n第1希望の〇月〇日(〇)〇〇:〇〇～でお取りできます。\nこちらの日時でご予約確定してよろしいでしょうか？\n\n（第1希望が難しい場合）\n恐れ入ります、第1希望は埋まっておりました。\n同日〇〇:〇〇～なら空きがございます。\n第2希望の〇月〇日(〇)〇〇:〇〇～もお取りできます。\nご都合お聞かせくださいませ。"}</div>
       </div>
 
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">予約確定後のフォロー</span>
-          <CopyButton targetId="line5b" />
-        </div>
-        <div className="tmpl-body" id="line5b">{"ご予約ありがとうございます。\n〇月〇日(〇)〇〇:〇〇～、〇〇にてお待ちしております。\n当日はお気をつけてお越しくださいませ。\nご不明点があればお気軽にご連絡ください。\n前日になりましたらリマインドのご連絡を差し上げます。"}</div>
+      <div className="tip" style={{ background: "rgba(6,199,85,.1)", borderLeftColor: "var(--green)" }}>
+        <strong style={{ color: "var(--green)" }}>低価格 × 継続改善 × 適正工数モデル</strong><br />
+        <span style={{ color: "#aaa" }}>一緒に、無理なく、着実に成果につながる運用を作っていきましょう。</span>
       </div>
 
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">来店後のお礼・リピート促進</span>
-          <CopyButton targetId="line6" />
-        </div>
-        <div className="tmpl-body" id="line6">{"〇〇様、本日はご来院ありがとうございました。\nお身体の調子はいかがでしょうか？少しでも楽になっていましたら幸いです。\n次回〇月〇日ごろにケアされると更に効果的です。\nまたのご予約を心よりお待ちしております。\nこのLINEでご連絡いただければ予約可能ですのでお気軽にどうぞ。"}</div>
-      </div>
-
-      <div className="sf"><span>しっとる広告運用</span><span>Instagram広告 クライアントガイド</span></div>
+      <div className="dark-sf"><span>しっとる広告運用</span><span>発行：2025年4月</span></div>
     </section>
   );
 }

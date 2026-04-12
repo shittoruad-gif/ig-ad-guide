@@ -1,7 +1,7 @@
 export default function S9() {
   return (
     <section className="slide" id="s9">
-      <div className="pg-num">09 / 15</div>
+      <div className="pg-num">09 / 14</div>
       <div className="chip">制作・休止・権利</div>
       <h2>制作ルール・休止と<br />著作権について</h2>
       <p className="lead">修正・動画制作・休止再開・著作権の要点です。</p>

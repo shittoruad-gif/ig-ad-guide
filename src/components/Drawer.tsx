@@ -18,9 +18,8 @@ const items = [
   { id: "s10", label: "テンプレ①〜③ 運用相談", num: "10" },
   { id: "s11", label: "テンプレ④〜⑥ 改善・設定変更", num: "11" },
   { id: "s12", label: "テンプレ⑦〜⑫ 動画・修正・休止", num: "12" },
-  { id: "s13", label: "テンプレ⑬〜⑰ LINE・その他", num: "13" },
-  { id: "s14", label: "LINE対応テンプレート", num: "14" },
-  { id: "s15", label: "まとめ", num: "15" },
+  { id: "s13", label: "テンプレ⑬〜⑱ その他", num: "13" },
+  { id: "s14", label: "まとめ", num: "14" },
 ];
 
 export default function Drawer({ open, onClose }: DrawerProps) {

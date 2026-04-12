@@ -1,7 +1,7 @@
 export default function S4() {
   return (
     <section className="slide" id="s4">
-      <div className="pg-num">04 / 15</div>
+      <div className="pg-num">04 / 14</div>
       <div className="chip green">広告の基本・導線</div>
       <h2>広告の仕組みと<br />飛び先で9割決まる話</h2>
       <p className="lead">広告は「表示→クリック→予約」の3ステップ。中でも飛び先が合っていないと予約が伸びません。</p>

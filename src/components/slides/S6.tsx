@@ -1,7 +1,7 @@
 export default function S6() {
   return (
     <section className="slide dark" id="s6">
-      <div className="pg-num">06 / 15</div>
+      <div className="pg-num">06 / 14</div>
       <div className="chip">契約・料金</div>
       <h2>安定運用のための<br /><span style={{ color: "var(--accent)" }}>基本ルール</span></h2>
       <p className="lead">公平に安定した品質で対応するためのルールです。</p>

@@ -1,7 +1,7 @@
 export default function S3() {
   return (
     <section className="slide dark" id="s3">
-      <div className="pg-num">03 / 15</div>
+      <div className="pg-num">03 / 14</div>
       <div className="chip" style={{ background: "var(--green)" }}>初期設定ガイド</div>
       <h2>はじめに<br /><span style={{ color: "var(--accent)" }}>やっていただくこと</span></h2>
       <p className="lead">ここに書いてある5つができれば、広告はスタートできます。分からないところは飛ばしてOK。できたところまでLINEで教えてください。</p>

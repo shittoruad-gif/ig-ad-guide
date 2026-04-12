@@ -1,7 +1,7 @@
 export default function S1() {
   return (
     <section className="slide dark" id="s1">
-      <div className="pg-num">01 / 15</div>
+      <div className="pg-num">01 / 14</div>
       <div style={{ fontFamily: "'DM Mono',monospace", fontSize: "10px", color: "#555", border: "1px solid #333", display: "inline-block", padding: "3px 10px", borderRadius: "3px", marginBottom: "20px", letterSpacing: ".1em" }}>Instagram Ad Guide</div>
 
       <h2>Instagram広告運用<br /><span style={{ color: "var(--accent)" }}>クライアント向け</span><br />完全ガイド</h2>
