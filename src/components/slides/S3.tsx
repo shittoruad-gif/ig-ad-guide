@@ -13,6 +13,7 @@ export default function S3() {
             <strong>動画を撮って送る</strong>
             <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>必ず<span style={{ color: "#FF5252" }}>縦撮り</span>（スマホを縦にした状態）。施術の様子を角度を変えて複数本。10〜20秒 × 5〜10本が目安。近め（手元）と遠め（全体）があるとベスト。音声・言い間違いOK（編集はこちらでします）。撮れた動画はそのまま<strong style={{ color: "white" }}>グループLINEへ送信</strong>。</span>
             <a href="https://youtu.be/ypoqf0JSwXs" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "8px", fontSize: "11px", color: "var(--accent)", fontWeight: 700, textDecoration: "none", background: "rgba(124,77,255,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"▶ 撮影方法の動画を見る"}</a>
+            <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "var(--green)", fontWeight: 700 }}>{"✅ できたらLINEで「動画送ります」と連絡してください"}</span>
           </div>
         </div>
         <div className="flow-step">
@@ -24,6 +25,7 @@ export default function S3() {
               <a href="https://youtu.be/LXgxH8Xd1oA" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "11px", color: "var(--accent)", fontWeight: 700, textDecoration: "none", background: "rgba(124,77,255,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"▶ 動画で見る"}</a>
               <a href="https://purring-tricorne-930.notion.site/1e6a85b685b680818b40cad4bdf7965c" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "11px", color: "var(--green)", fontWeight: 700, textDecoration: "none", background: "rgba(6,199,85,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"📸 画像付き手順を見る"}</a>
             </span>
+            <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "var(--green)", fontWeight: 700 }}>{"✅ できたらLINEで「現在地設定できました」と連絡してください"}</span>
           </div>
         </div>
         <div className="flow-step">
@@ -33,6 +35,7 @@ export default function S3() {
             <span style={{ fontSize: "12px", color: "#FF5252" }}>スマホアプリからだと手数料30%がかかることがあります。</span>{" "}
             <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>必ず<strong style={{ color: "white" }}>PC（またはスマホのブラウザ）</strong>からWebで設定してください。通貨が米ドル（USD）になっている場合は日本円（JPY）に変更。</span>
             <a href="https://purring-tricorne-930.notion.site/1d8a85b685b680f5bddcee62577c2eeb" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "4px", marginTop: "8px", fontSize: "11px", color: "var(--green)", fontWeight: 700, textDecoration: "none", background: "rgba(6,199,85,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"📸 画像付き手順を見る"}</a>
+            <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "var(--green)", fontWeight: 700 }}>{"✅ できたらLINEで「支払い設定できました」と連絡してください"}</span>
           </div>
         </div>
         <div className="flow-step">
@@ -47,6 +50,7 @@ export default function S3() {
           <div className="flow-text">
             <strong>二段階認証を解除（オフ）にする</strong>
             <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>弊社がログインするたびに確認コードの共有が必要になり、お互いに手間がかかります。解除しておくとスムーズです。Instagramアプリ → メニュー → アカウントセンター → パスワードとセキュリティ → 二段階認証 → SMS・認証アプリを<strong style={{ color: "white" }}>両方オフ</strong>。</span>
+            <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "var(--green)", fontWeight: 700 }}>{"✅ できたらLINEで「二段階認証オフにしました」と連絡してください"}</span>
           </div>
         </div>
       </div>
@@ -75,8 +79,8 @@ export default function S3() {
       </div>
 
       <div className="tip" style={{ background: "rgba(6,199,85,.1)", borderLeftColor: "var(--green)" }}>
-        <strong style={{ color: "var(--green)" }}>途中まででOK</strong><br />
-        <span style={{ color: "#aaa" }}>できたところまでをLINEで教えてください。続きは一緒に進めます。</span>
+        <strong style={{ color: "var(--green)" }}>各ステップが終わるごとにLINEで連絡をください</strong><br />
+        <span style={{ color: "#aaa" }}>「動画送ります」「現在地できました」など一言でOKです。途中まででも大丈夫。できたところまで教えていただければ、続きは一緒に進めます。</span>
       </div>
 
       <div className="dark-sf"><span>しっとる広告運用</span><span>Instagram広告 クライアントガイド</span></div>
