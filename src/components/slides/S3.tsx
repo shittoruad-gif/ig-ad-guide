@@ -19,8 +19,11 @@ export default function S3() {
           <div className="flow-num">STEP 02</div>
           <div className="flow-text">
             <strong>現在地（配信エリア）を設定</strong>
-            <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>広告は「店舗から半径◯km」でエリアを決めて配信します。<span style={{ color: "#FF5252" }}>必ず店舗にいるとき</span>に、<strong style={{ color: "white" }}>スマホのInstagramアプリ</strong>から操作してください。設定画面で広告出稿の画面に行った後、広告は出さずに戻ってOK。</span>
-            <a href="https://youtu.be/LXgxH8Xd1oA" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "8px", fontSize: "11px", color: "var(--accent)", fontWeight: 700, textDecoration: "none", background: "rgba(124,77,255,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"▶ 現在地設定の動画を見る"}</a>
+            <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>広告は「店舗から半径◯km」でエリアを決めて配信します。<span style={{ color: "#FF5252" }}>必ず店舗にいるとき</span>に、<strong style={{ color: "white" }}>スマホのInstagramアプリ</strong>から操作。手順：プロフィール→投稿を宣伝→ウェブサイトにアクセス→自分で作成→オーディエンス名に「しっとる」→地域→ローカル→現在地にチェック→完了→戻る→キャンセル→破棄。</span>
+            <span style={{ display: "flex", gap: "6px", marginTop: "8px", flexWrap: "wrap" }}>
+              <a href="https://youtu.be/LXgxH8Xd1oA" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "11px", color: "var(--accent)", fontWeight: 700, textDecoration: "none", background: "rgba(124,77,255,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"▶ 動画で見る"}</a>
+              <a href="https://purring-tricorne-930.notion.site/1e6a85b685b680818b40cad4bdf7965c" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "11px", color: "var(--green)", fontWeight: 700, textDecoration: "none", background: "rgba(6,199,85,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"📸 画像付き手順を見る"}</a>
+            </span>
           </div>
         </div>
         <div className="flow-step">
@@ -29,6 +32,7 @@ export default function S3() {
             <strong>支払い方法をPCで設定</strong>
             <span style={{ fontSize: "12px", color: "#FF5252" }}>スマホアプリからだと手数料30%がかかることがあります。</span>{" "}
             <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>必ず<strong style={{ color: "white" }}>PC（またはスマホのブラウザ）</strong>からWebで設定してください。通貨が米ドル（USD）になっている場合は日本円（JPY）に変更。</span>
+            <a href="https://purring-tricorne-930.notion.site/1d8a85b685b680f5bddcee62577c2eeb" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "4px", marginTop: "8px", fontSize: "11px", color: "var(--green)", fontWeight: 700, textDecoration: "none", background: "rgba(6,199,85,.15)", padding: "4px 10px", borderRadius: "6px" }}>{"📸 画像付き手順を見る"}</a>
           </div>
         </div>
         <div className="flow-step">
