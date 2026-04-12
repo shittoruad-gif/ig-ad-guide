@@ -39,7 +39,7 @@ export default function S3() {
           <div className="flow-num">STEP 04</div>
           <div className="flow-text">
             <strong>広告が止まっていないか確認（2〜3日に1回）</strong>
-            <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>Instagramアプリ → プロフィール → プロフェッショナルダッシュボード → 広告ツール → 現在の広告。<strong style={{ color: "white" }}>「◯日後終了」→ OK</strong>。<span style={{ color: "#FF5252" }}>「停止中」や消化金額¥0 → NG（すぐLINEで連絡を）</span>。</span>
+            <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>Instagramアプリ → プロフィール → プロフェッショナルダッシュボード → 広告ツール → 現在の広告。<strong style={{ color: "white" }}>「◯日後終了」→ OK</strong>。<span style={{ color: "#FF5252" }}>「停止中」や消化金額が¥0のまま・前回から変わっていない → NG（すぐLINEで連絡を）</span>。</span>
           </div>
         </div>
         <div className="flow-step">
