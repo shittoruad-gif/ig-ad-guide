@@ -19,6 +19,8 @@ import S10 from "@/components/slides/S10";
 import S11 from "@/components/slides/S11";
 import S12 from "@/components/slides/S12";
 import S13 from "@/components/slides/S13";
+import S14 from "@/components/slides/S14";
+import S15 from "@/components/slides/S15";
 
 export default function Home() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -43,6 +45,8 @@ export default function Home() {
         <S11 />
         <S12 />
         <S13 />
+        <S14 />
+        <S15 />
       </div>
       <SlideFooter current={current} total={total} goPage={goPage} />
     </>

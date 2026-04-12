@@ -3,71 +3,58 @@ import CopyButton from "@/components/CopyButton";
 export default function S12() {
   return (
     <section className="slide" id="s12">
-      <div className="pg-num">12 / 13</div>
-      <div className="chip">LINE対応・レポート</div>
-      <h2>LINE対応テンプレ＆<br />月次レポートの考え方</h2>
-      <p className="lead">公式LINEでの対応テンプレートと、月次レポートの見方をまとめました。</p>
+      <div className="pg-num">12 / 15</div>
+      <div className="chip">テンプレート集③</div>
+      <h2>動画・修正・停止<br />休止・再開テンプレ</h2>
+      <p className="lead">制作・修正依頼や緊急時のテンプレートです。</p>
 
-      <div className="section-divider">
-        <div className="section-divider-line"></div>
-        <div className="section-divider-text">LINE対応テンプレート</div>
-        <div className="section-divider-line"></div>
+      <div className="tmpl-box">
+        <div className="tmpl-head">
+          <span className="tmpl-head-label">⑦ 動画の差し替え依頼</span>
+          <CopyButton targetId="t7" />
+        </div>
+        <div className="tmpl-body" id="t7">{"【動画の差し替えのお願い】\n※修正は2回まで無料。3回目以降は 2,200円/回。\n\n広告の動画を差し替えたいです。\n\n■動画内テロップや文章の変更（ある場合）：＿＿＿＿\n■理由：＿＿＿＿（例：反応が薄い、季節に合わせたい など）\n■いつまでに反映したい：＿＿＿＿\n\nよろしくお願いいたします。"}</div>
       </div>
 
       <div className="tmpl-box">
         <div className="tmpl-head">
-          <span className="tmpl-head-label">友だち追加時の自動応答</span>
-          <CopyButton targetId="line1" />
+          <span className="tmpl-head-label">⑧ 追加動画の制作依頼</span>
+          <CopyButton targetId="t8" />
         </div>
-        <div className="tmpl-body" id="line1">{"〇〇【友だちの表示名】さん、友だち追加ありがとうございます。\nご連絡内容を確認後、担当スタッフより順番に返信いたします。\nお急ぎの場合はお電話（◯◯◯-◯◯◯◯-◯◯◯◯）もご利用ください。"}</div>
+        <div className="tmpl-body" id="t8">{"【追加動画の制作依頼】\n※追加制作は 5,500円/本。3ヶ月に1本は無償対象の場合あり。\n\n■目的：＿＿＿＿（例：新規予約、LINE登録、体験申込）\n■誰に見せたい：＿＿＿＿（例：30代女性、産後ママ）\n■何を伝えたい：＿＿＿＿（例：産後骨盤矯正、肩こり）\n■本数：＿＿＿＿本\n■いつまでに欲しい：＿＿＿＿\n■素材（写真や動画リンク）：＿＿＿＿\n■NG表現（あれば）：＿＿＿＿\n\nよろしくお願いいたします。"}</div>
+      </div>
+
+      <div className="tmpl-box" style={{ borderColor: "var(--red)" }}>
+        <div className="tmpl-head" style={{ background: "#FFEBEE" }}>
+          <span className="tmpl-head-label" style={{ color: "var(--red)" }}>⑨ 至急：広告停止</span>
+          <CopyButton targetId="t9" />
+        </div>
+        <div className="tmpl-body" id="t9">{"【至急：広告停止】\n\n広告が停止している表示が出ました。\n\n■発生日時：＿＿＿＿\n■エラー表示内容：＿＿＿＿（可能ならそのまま転記）\n■カード確認状況：＿＿＿＿（例：期限OK/限度額確認中/別カード追加済）\n\n※通知画面のスクショ添付がおすすめです\n次の対応手順を教えてください。"}</div>
       </div>
 
       <div className="tmpl-box">
         <div className="tmpl-head">
-          <span className="tmpl-head-label">問い合わせへの初期返信</span>
-          <CopyButton targetId="line2" />
+          <span className="tmpl-head-label">⑩ 休止申請</span>
+          <CopyButton targetId="t10" />
         </div>
-        <div className="tmpl-body" id="line2">{"〇〇【名前】様、メッセージありがとうございます。\n◯◯（店舗名）の△△です。お問い合わせ内容を確認いたしました。\n●●についてご質問ですね。後ほど詳しいご案内をお送りいたしますので少々お待ちくださいませ。"}</div>
+        <div className="tmpl-body" id="t10">{"【休止申請】\n\n広告運用の休止を希望します。\n\n■休止開始希望日：＿＿＿＿（例：2026/3/1から）\n■休止理由（任意）：＿＿＿＿\n\n※休止は3ヶ月経過後から可能\n※休止中は休止管理費 3,300円（税込）が発生します\n\nよろしくお願いいたします。"}</div>
       </div>
 
       <div className="tmpl-box">
         <div className="tmpl-head">
-          <span className="tmpl-head-label">予約受付用の情報ヒアリング</span>
-          <CopyButton targetId="line3" />
+          <span className="tmpl-head-label">⑪ 再開希望</span>
+          <CopyButton targetId="t11" />
         </div>
-        <div className="tmpl-body" id="line3">{"〇〇様、当院でのご予約を希望いただきありがとうございます。\nスムーズに予約をお取りするため、下記の情報をご返信ください。\n1【お名前（フルネーム）】\n2【ご希望の日時・時間帯】（第2希望までいただけると助かります）\n3【ご希望のメニュー/コース】\n確認でき次第、空き状況を調整しご連絡いたします。"}</div>
+        <div className="tmpl-body" id="t11">{"【再開希望】\n\n広告運用の再開を希望します。\n\n■再開希望日：＿＿＿＿（例：2026/4/1から）\n■直近で変わった点：＿＿＿＿（例：メニュー/価格/予約導線 など）\n■今月の優先したい目的：＿＿＿＿（例：新規予約/LINE登録）\n\nよろしくお願いいたします。"}</div>
       </div>
 
       <div className="tmpl-box">
         <div className="tmpl-head">
-          <span className="tmpl-head-label">予約確定後のフォロー</span>
-          <CopyButton targetId="line4" />
+          <span className="tmpl-head-label">⑫ 広告の修正依頼</span>
+          <CopyButton targetId="t12" />
         </div>
-        <div className="tmpl-body" id="line4">{"ご予約ありがとうございます。\n5月10日(火)15:00～、〇〇整骨院にてお待ちしております。\n当日はお気をつけてお越しくださいませ。\n何かご不明点があればお気軽にご連絡ください。\n前日になりましたらリマインドのご連絡を差し上げます。"}</div>
+        <div className="tmpl-body" id="t12">{"【修正のお願い】\n※修正は2回まで無料。3回目以降は 2,200円/回。\n※修正点はできるだけ1通にまとめてください。\n\n■どれを直したいですか\n・広告素材名：＿＿＿＿（例：2月_肩こり_リール①）\n・どの部分：＿＿＿＿（例：最初の3秒のテロップ、説明文 など）\n\n■どう直したいですか\n① いま：＿＿＿＿ → 直したい：＿＿＿＿\n② いま：＿＿＿＿ → 直したい：＿＿＿＿\n\n■理由（任意）：＿＿＿＿\n\nよろしくお願いします。"}</div>
       </div>
-
-      <div className="tmpl-box">
-        <div className="tmpl-head">
-          <span className="tmpl-head-label">来店後のお礼・リピート促進</span>
-          <CopyButton targetId="line5" />
-        </div>
-        <div className="tmpl-body" id="line5">{"〇〇様、本日はご来院いただきありがとうございました。\nお身体の調子はいかがでしょうか？少しでも楽になっていましたら幸いです。\n次回〇月〇日ごろにケアされると更に効果的です。またのご予約を心よりお待ちしております。\nこのLINEでご連絡いただければ予約可能ですのでお気軽にどうぞ。"}</div>
-      </div>
-
-      <div className="section-divider">
-        <div className="section-divider-line"></div>
-        <div className="section-divider-text">月次レポートの見方</div>
-        <div className="section-divider-line"></div>
-      </div>
-
-      <div className="card" style={{ marginBottom: "12px" }}>
-        <div className="card-label">月次で見るべき順番</div>
-        <div className="card-body">
-          <strong>1. CPC</strong>（入口の効率）→ <strong>2. クリック数</strong>（興味の量）→ <strong>3. CTR</strong>（訴求の刺さり）→ <strong>4. 問い合わせ/予約</strong>（受け皿の影響が大きい）
-        </div>
-      </div>
-
-      <div className="notice"><strong>予約が少ない ＝ 広告失敗、とは限りません。</strong>「飛び先の分かりづらさ」「空き枠不足」「返信遅れ」が原因のことが多いです。</div>
 
       <div className="sf"><span>しっとる広告運用</span><span>Instagram広告 クライアントガイド</span></div>
     </section>

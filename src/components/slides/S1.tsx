@@ -1,28 +1,34 @@
 export default function S1() {
   return (
     <section className="slide dark" id="s1">
-      <div className="pg-num">01 / 13</div>
+      <div className="pg-num">01 / 15</div>
       <div style={{ fontFamily: "'DM Mono',monospace", fontSize: "10px", color: "#555", border: "1px solid #333", display: "inline-block", padding: "3px 10px", borderRadius: "3px", marginBottom: "20px", letterSpacing: ".1em" }}>Instagram Ad Guide</div>
 
-      <h2>Instagram広告運用<br /><span style={{ color: "var(--accent)" }}>クライアント向け</span><br />ガイド</h2>
-      <p className="lead">Instagram広告運用を「はじめての方でもわかる」ように、大事な考え方・ルール・よくある質問・テンプレートをまとめたガイドです。</p>
+      <h2>Instagram広告運用<br /><span style={{ color: "var(--accent)" }}>クライアント向け</span><br />完全ガイド</h2>
+      <p className="lead">はじめての方でも大丈夫。大事な考え方・ルール・よくある質問・すぐ使えるテンプレートを全部まとめました。</p>
 
-      <div className="price-hero">
-        <div className="price-hero-label">SUPPORT GUIDE</div>
-        <div style={{ fontSize: "12px", color: "#888", marginBottom: "8px" }}>運用代行費</div>
-        <div className="price-hero-main" style={{ fontSize: "28px" }}>広告費の<sup style={{ fontSize: "14px" }}></sup>20%</div>
-        <div className="price-hero-note">最低 ¥11,000（税込）/月</div>
-        <div className="price-hero-contract">最低契約期間：3ヶ月</div>
+      <a href="#s2" className="tmpl-cta" style={{ marginBottom: "20px" }}>
+        <div className="tmpl-cta-icon">{"📋"}</div>
+        <div className="tmpl-cta-text">
+          <div className="tmpl-cta-title">困ったら → まず次のページへ</div>
+          <div className="tmpl-cta-desc">状況別テンプレートの早見表があります。コピーしてLINEで送るだけでOK。</div>
+        </div>
+        <div className="tmpl-cta-arrow">{"→"}</div>
+      </a>
+
+      <div style={{ background: "#1a1a1a", borderRadius: "12px", padding: "18px", marginBottom: "16px" }}>
+        <div style={{ fontSize: "11px", color: "var(--accent)", fontWeight: 700, letterSpacing: ".08em", marginBottom: "12px" }}>HOW TO USE THIS GUIDE</div>
+        <ul className="checklist">
+          <li className="ok" style={{ color: "#aaa" }}><strong style={{ color: "white" }}>まず「早見表」を見る</strong> → 困りごとに合うテンプレートが分かる</li>
+          <li className="ok" style={{ color: "#aaa" }}><strong style={{ color: "white" }}>テンプレートをコピー</strong> → LINEに貼って空欄を埋めるだけ</li>
+          <li className="ok" style={{ color: "#aaa" }}><strong style={{ color: "white" }}>時間があるとき全体を読む</strong> → 広告の仕組みが分かると改善が早い</li>
+        </ul>
       </div>
 
-      <ul className="checklist" style={{ marginBottom: "20px" }}>
-        <li className="ok">広告の設計・改善を当社が担当</li>
-        <li className="ok">月次レポートで成果を共有</li>
-        <li className="ok">3ヶ月に1本 動画制作無料</li>
-        <li className="ok">修正は2回まで無料対応</li>
-      </ul>
-
-      <div className="notice">このガイドでは、広告運用の全体像から契約ルール、困ったときの対応まで順を追って説明しています。まずは上から順にご確認ください。</div>
+      <div className="tip" style={{ background: "rgba(6,199,85,.1)", borderLeftColor: "var(--green)" }}>
+        <strong style={{ color: "var(--green)" }}>テンプレートを使うメリット</strong><br />
+        <span style={{ color: "#aaa" }}>必要な情報が揃った状態で届くため、<strong style={{ color: "white" }}>確認のやり取りが減り、対応が最短</strong>になります。フリーテキストより圧倒的に早く解決します。</span>
+      </div>
 
       <div className="dark-sf"><span>しっとる広告運用</span><span>Instagram広告 クライアントガイド</span></div>
     </section>

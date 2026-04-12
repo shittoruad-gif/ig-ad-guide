@@ -1,63 +1,61 @@
 export default function S5() {
   return (
-    <section className="slide dark" id="s5">
-      <div className="pg-num">05 / 13</div>
-      <div className="chip">契約・料金ルール</div>
-      <h2>安定運用のための<br /><span style={{ color: "var(--accent)" }}>基本ルール</span></h2>
-      <p className="lead">全てのクライアント様に公平に安定した品質で対応するためのルールです。</p>
+    <section className="slide" id="s5">
+      <div className="pg-num">05 / 15</div>
+      <div className="chip">成果の考え方</div>
+      <h2>成果は3段階。<br />3ヶ月で安定させる</h2>
+      <p className="lead">広告は出した瞬間に魔法のように成果が出るものではありません。</p>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginBottom: "20px" }}>
-        <div style={{ background: "#1a1a1a", borderRadius: "10px", padding: "16px" }}>
-          <div style={{ fontSize: "10px", color: "var(--accent)", fontWeight: 700, marginBottom: "4px" }}>最低契約期間</div>
-          <div style={{ fontSize: "15px", fontWeight: 700, color: "white" }}>3ヶ月</div>
-          <div style={{ fontSize: "12px", color: "#888", lineHeight: 1.7, marginTop: "4px" }}>短期で止めると改善ができず、広告の学習も進みにくいため</div>
+      <div className="flow">
+        <div className="flow-step">
+          <div className="flow-num">STAGE 1</div>
+          <div className="flow-text"><strong>入口の成果</strong>表示・クリックが取れている</div>
         </div>
-        <div style={{ background: "#1a1a1a", borderRadius: "10px", padding: "16px" }}>
-          <div style={{ fontSize: "10px", color: "var(--accent)", fontWeight: 700, marginBottom: "4px" }}>月額運用費</div>
-          <div style={{ fontSize: "15px", fontWeight: 700, color: "white" }}>広告運用費の20%（最低 ¥11,000）</div>
-          <div style={{ fontSize: "12px", color: "#888", lineHeight: 1.7, marginTop: "4px" }}>30日単位課金・翌月末クレジット決済</div>
+        <div className="flow-step">
+          <div className="flow-num">STAGE 2</div>
+          <div className="flow-text"><strong>受け皿の成果</strong>リンク先で離脱が少ない</div>
         </div>
-        <div style={{ background: "#1a1a1a", borderRadius: "10px", padding: "16px" }}>
-          <div style={{ fontSize: "10px", color: "var(--red)", fontWeight: 700, marginBottom: "4px" }}>未決済時</div>
-          <div style={{ fontSize: "15px", fontWeight: 700, color: "white" }}>7日間未決済で広告停止</div>
-          <div style={{ fontSize: "12px", color: "#888", lineHeight: 1.7, marginTop: "4px" }}>停止期間中の機会損失は免責となります</div>
+        <div className="flow-step">
+          <div className="flow-num">STAGE 3</div>
+          <div className="flow-text"><strong>最終の成果</strong>問い合わせ・予約</div>
         </div>
       </div>
 
-      <div className="section-divider" style={{ borderColor: "#333" }}>
-        <div className="section-divider-line" style={{ background: "#333" }}></div>
-        <div className="section-divider-text">料金一覧</div>
-        <div className="section-divider-line" style={{ background: "#333" }}></div>
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "column", gap: "8px", marginBottom: "20px" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid #222" }}>
-          <span style={{ fontSize: "13px", color: "#aaa" }}>ミーティング（初回）</span>
-          <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "var(--green)" }}>無料</span>
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid #222" }}>
-          <span style={{ fontSize: "13px", color: "#aaa" }}>ミーティング（2回目〜）</span>
-          <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "white" }}>¥5,500 / 時間</span>
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid #222" }}>
-          <span style={{ fontSize: "13px", color: "#aaa" }}>動画制作（3ヶ月に1本）</span>
-          <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "var(--green)" }}>無料</span>
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid #222" }}>
-          <span style={{ fontSize: "13px", color: "#aaa" }}>追加動画</span>
-          <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "white" }}>¥5,500 / 本</span>
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid #222" }}>
-          <span style={{ fontSize: "13px", color: "#aaa" }}>修正（2回まで）</span>
-          <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "var(--green)" }}>無料</span>
-        </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0" }}>
-          <span style={{ fontSize: "13px", color: "#aaa" }}>修正（3回目〜）</span>
-          <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "white" }}>¥2,200 / 回</span>
+      <div style={{ background: "#111", borderRadius: "12px", padding: "20px", marginBottom: "16px" }}>
+        <div style={{ fontSize: "11px", color: "#555", fontWeight: 700, letterSpacing: ".08em", marginBottom: "14px" }}>3-MONTH ROADMAP</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingBottom: "10px", borderBottom: "1px solid #222" }}>
+            <span style={{ fontSize: "13px", color: "#aaa" }}>1ヶ月目</span>
+            <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "white" }}>データを集める</span>
+          </div>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingBottom: "10px", borderBottom: "1px solid #222" }}>
+            <span style={{ fontSize: "13px", color: "#aaa" }}>2ヶ月目</span>
+            <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "var(--accent)" }}>改善する</span>
+          </div>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <span style={{ fontSize: "13px", color: "#aaa" }}>3ヶ月目</span>
+            <span style={{ fontFamily: "'DM Mono',monospace", fontSize: "14px", color: "var(--green)" }}>安定させる</span>
+          </div>
         </div>
       </div>
 
-      <div className="dark-sf"><span>しっとる広告運用</span><span>Instagram広告 クライアントガイド</span></div>
+      <div className="tip">
+        <strong>成果に関する大切なお約束</strong><br />
+        ・成果保証は行っておりません<br />
+        ・判断は原則3ヶ月を目安<br />
+        ・広告の停止と再開を繰り返すと学習がリセットされる可能性
+      </div>
+
+      <a href="#s11" className="tmpl-cta">
+        <div className="tmpl-cta-icon">{"😰"}</div>
+        <div className="tmpl-cta-text">
+          <div className="tmpl-cta-title">成果が出ない・不安なとき</div>
+          <div className="tmpl-cta-desc">状況共有テンプレートで連絡 → 優先すべきことをお伝えします</div>
+        </div>
+        <div className="tmpl-cta-arrow">{"→"}</div>
+      </a>
+
+      <div className="sf"><span>しっとる広告運用</span><span>Instagram広告 クライアントガイド</span></div>
     </section>
   );
 }
