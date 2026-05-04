@@ -12,6 +12,7 @@ export function useSlide() {
   }, [current]);
 
   useEffect(() => {
+    // ビューポート中央の50%をトリガー帯とする（縦長スライドでも確実に検出される）
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -23,7 +24,10 @@ export function useSlide() {
           }
         });
       },
-      { threshold: 0.4 }
+      {
+        threshold: 0,
+        rootMargin: "-25% 0px -25% 0px",
+      }
     );
 
     SLIDES.forEach((id) => {
