@@ -41,7 +41,7 @@ export default function S3() {
               <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.85)", lineHeight: 1.8 }}>
                 ① PCのブラウザ（Chrome/Safari/Edge等）で <strong style={{ color: "white" }}>instagram.com</strong> を開き、ご自身のアカウントでログイン<br />
                 ② 左メニューの <strong style={{ color: "white" }}>「設定」</strong> をクリック<br />
-                ③ <strong style={{ color: "white" }}>「ビジネスツールと管理」</strong>（または「ビジネス」「広告」「広告アカウント」）→ <strong style={{ color: "white" }}>「広告の支払い」</strong>（または「請求と支払い」）を選択<br />
+                ③ <strong style={{ color: "white" }}>「広告の支払い」</strong> をクリック<br />
                 ④ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> をクリック<br />
                 ⑤ <strong style={{ color: "white" }}>「デビットカード・クレジットカード」</strong> を選択して「次へ」（VISA/Master/AMEX/JCB対応）<br />
                 ⑥ <strong style={{ color: "white" }}>カードの名義・カード番号・有効期限（MM/YY）・CVV（裏面3桁）</strong> を入力して「保存」<br />
