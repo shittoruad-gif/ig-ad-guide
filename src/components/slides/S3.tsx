@@ -51,7 +51,7 @@ export default function S3() {
             </span>
 
             <span style={{ display: "block", marginTop: "10px", padding: "10px 12px", background: "rgba(255,255,255,.04)", borderRadius: "8px", borderLeft: "3px solid #888" }}>
-              <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "#aaa", background: "rgba(255,255,255,.1)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>代替手段</span>
+              <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "#aaa", background: "rgba(255,255,255,.1)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>代替手段A</span>
               <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>📱 PCがない方：スマホブラウザから設定する手順</span>
               <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.7)", lineHeight: 1.8 }}>
                 ① <strong style={{ color: "white" }}>Safari / Chrome等のブラウザアプリ</strong>を開いて <strong style={{ color: "white" }}>facebook.com</strong> にアクセス<br />
@@ -64,6 +64,26 @@ export default function S3() {
               </span>
               <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "#FFB74D" }}>
                 ⚠ <strong>Instagramアプリ内のブラウザ</strong>ではなく、必ず<strong>Safari / Chrome等の独立したブラウザアプリ</strong>から開いてください。アプリ内ブラウザだと手数料がかかることがあります。
+              </span>
+            </span>
+
+            <span style={{ display: "block", marginTop: "10px", padding: "10px 12px", background: "rgba(255,255,255,.04)", borderRadius: "8px", borderLeft: "3px solid #888" }}>
+              <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "#aaa", background: "rgba(255,255,255,.1)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>代替手段B</span>
+              <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>📷 Instagramアプリから始める手順</span>
+              <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.7)", lineHeight: 1.8 }}>
+                Facebookの場所が分からない場合は、Instagramから始めてもOKです。<br /><br />
+                ① Instagramアプリを開き、<strong style={{ color: "white" }}>プロフィール</strong>へ<br />
+                ② <strong style={{ color: "white" }}>「プロフェッショナルダッシュボード」</strong> をタップ<br />
+                ③ 下にスクロールして <strong style={{ color: "white" }}>「広告ツール」</strong> をタップ<br />
+                ④ <strong style={{ color: "white" }}>「広告マネージャを開く」</strong>（または「請求」「支払い設定」）をタップ<br />
+                ⑤ ここで <strong style={{ color: "#FFB74D" }}>「ブラウザで開く」</strong> を選択（アプリ内のままだと手数料30%発生のリスク）<br />
+                ⑥ Safari/Chromeで開いたら、Facebookの <strong style={{ color: "white" }}>「請求と支払い」</strong> 画面が表示されます<br />
+                ⑦ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> → デビット/クレジットカードを選択<br />
+                ⑧ <strong style={{ color: "white" }}>カード名義・番号・MM/YY・CVV</strong> を入力して「保存」<br />
+                ⑨ 通貨が <strong style={{ color: "white" }}>JPY</strong>、登録カードがデフォルトになっているか確認
+              </span>
+              <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "#FFB74D" }}>
+                ⚠ ⑤で<strong>必ずブラウザに切り替える</strong>こと。Instagramアプリ内のままカード登録すると、Apple/Google経由で30%の手数料が上乗せされる場合があります。
               </span>
             </span>
 
