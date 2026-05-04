@@ -40,16 +40,13 @@ export default function S3() {
               <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>💻 PCのブラウザでInstagramにログインして設定</span>
               <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.85)", lineHeight: 1.8 }}>
                 ① PCのブラウザ（Chrome/Safari/Edge等）で <strong style={{ color: "white" }}>instagram.com</strong> を開き、ご自身のアカウントでログイン<br />
-                ② 左メニューの <strong style={{ color: "white" }}>「設定」</strong> をクリック<br />
-                ③ <strong style={{ color: "white" }}>「広告の支払い」</strong> をクリック<br />
+                ② 左メニューの <strong style={{ color: "white" }}>「プロフェッショナルダッシュボード」</strong> をクリック<br />
+                ③ 右側に表示される <strong style={{ color: "white" }}>「請求と支払い」</strong> をクリック<br />
                 ④ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> をクリック<br />
                 ⑤ <strong style={{ color: "white" }}>「デビットカード・クレジットカード」</strong> を選択して「次へ」（VISA/Master/AMEX/JCB対応）<br />
                 ⑥ <strong style={{ color: "white" }}>カードの名義・カード番号・有効期限（MM/YY）・CVV（裏面3桁）</strong> を入力して「保存」<br />
                 ⑦ 通貨が <strong style={{ color: "white" }}>JPY（日本円）</strong> になっているか確認（USDなら変更）<br />
                 ⑧ 登録したカードが <strong style={{ color: "white" }}>「デフォルト」</strong> になっていればOK
-              </span>
-              <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "rgba(255,255,255,.7)" }}>
-                💡 Instagramの設定画面から進むと、自動的にFacebookの「請求と支払い」画面（Metaの広告管理画面）に切り替わることがあります。同じ画面なのでそのまま続行してOKです。
               </span>
             </span>
 
@@ -59,11 +56,12 @@ export default function S3() {
               <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.7)", lineHeight: 1.8 }}>
                 ① <strong style={{ color: "white" }}>Safari / Chrome等のブラウザアプリ</strong>を開いて <strong style={{ color: "white" }}>instagram.com</strong> にアクセス<br />
                 ② ご自身のInstagramアカウントでログイン<br />
-                ③ メニュー → <strong style={{ color: "white" }}>「設定」</strong> → <strong style={{ color: "white" }}>「ビジネスツールと管理」</strong> → <strong style={{ color: "white" }}>「広告の支払い」</strong>（または「請求と支払い」）<br />
-                ④ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> をタップ<br />
-                ⑤ <strong style={{ color: "white" }}>「デビットカード・クレジットカード」</strong> を選び「次へ」<br />
-                ⑥ <strong style={{ color: "white" }}>カードの名義・カード番号・MM/YY・CVV</strong> を入力して「保存」<br />
-                ⑦ 通貨が <strong style={{ color: "white" }}>JPY</strong>、登録カードがデフォルトになっているか確認
+                ③ メニュー（または下部メニュー）から <strong style={{ color: "white" }}>「プロフェッショナルダッシュボード」</strong> をタップ<br />
+                ④ <strong style={{ color: "white" }}>「請求と支払い」</strong> をタップ<br />
+                ⑤ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> をタップ<br />
+                ⑥ <strong style={{ color: "white" }}>「デビットカード・クレジットカード」</strong> を選び「次へ」<br />
+                ⑦ <strong style={{ color: "white" }}>カードの名義・カード番号・MM/YY・CVV</strong> を入力して「保存」<br />
+                ⑧ 通貨が <strong style={{ color: "white" }}>JPY</strong>、登録カードがデフォルトになっているか確認
               </span>
               <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "#FFB74D" }}>
                 ⚠ <strong>Instagramアプリ</strong>からは設定しないでください。必ず<strong>Safari / Chrome等のブラウザアプリを起動</strong>して、そこから <strong>instagram.com</strong> にアクセスしてください。アプリ経由だとApple/Googleの30%手数料が乗ることがあります。
