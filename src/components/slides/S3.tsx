@@ -32,58 +32,41 @@ export default function S3() {
           <div className="flow-num">STEP 03</div>
           <div className="flow-text">
             <strong>支払い方法を設定する</strong>
-            <span style={{ fontSize: "12px", color: "#FF5252" }}>Instagramアプリからだと手数料30%がかかることがあります。</span>{" "}
-            <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>必ず<strong style={{ color: "white" }}>ブラウザのWeb版</strong>から設定してください。<strong style={{ color: "white" }}>PCからの設定が最も確実で推奨</strong>です。PCがない場合のみスマホのブラウザを使います。</span>
+            <span style={{ fontSize: "12px", color: "#FF5252" }}>Instagram「アプリ」から設定すると手数料30%がかかることがあります。</span>{" "}
+            <span style={{ fontSize: "12px", color: "rgba(255,255,255,.7)" }}>必ず<strong style={{ color: "white" }}>ブラウザ（Safari/Chrome等）でinstagram.comにログイン</strong>して設定してください。アプリではなくブラウザ版を使うのが大事なポイントです。<strong style={{ color: "white" }}>PCからの操作が最も確実で推奨</strong>です。</span>
 
             <span style={{ display: "block", marginTop: "12px", padding: "12px 14px", background: "linear-gradient(135deg, rgba(124,77,255,.18) 0%, rgba(101,31,255,.18) 100%)", borderRadius: "8px", border: "1.5px solid var(--accent)" }}>
               <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "white", background: "var(--accent)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>★ 推奨・基本</span>
-              <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>💻 PCから設定する手順</span>
+              <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>💻 PCのブラウザでInstagramにログインして設定</span>
               <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.85)", lineHeight: 1.8 }}>
-                ① PCのブラウザ（Chrome/Safari/Edge等）で <strong style={{ color: "white" }}>facebook.com</strong> を開き、Instagramと連携しているFacebookアカウントでログイン<br />
-                ② 右上のアカウントメニュー → <strong style={{ color: "white" }}>「設定とプライバシー」</strong> → <strong style={{ color: "white" }}>「設定」</strong> をクリック<br />
-                ③ 左メニューの <strong style={{ color: "white" }}>「広告」</strong> → <strong style={{ color: "white" }}>「広告アカウント」</strong> → <strong style={{ color: "white" }}>「請求と支払い」</strong> を開く<br />
+                ① PCのブラウザ（Chrome/Safari/Edge等）で <strong style={{ color: "white" }}>instagram.com</strong> を開き、ご自身のアカウントでログイン<br />
+                ② 左メニューの <strong style={{ color: "white" }}>「もっと見る」</strong>（…マーク）→ <strong style={{ color: "white" }}>「設定」</strong> をクリック<br />
+                ③ <strong style={{ color: "white" }}>「ビジネスツールと管理」</strong>（または「ビジネス」「広告」「広告アカウント」）→ <strong style={{ color: "white" }}>「広告の支払い」</strong>（または「請求と支払い」）を選択<br />
                 ④ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> をクリック<br />
                 ⑤ <strong style={{ color: "white" }}>「デビットカード・クレジットカード」</strong> を選択して「次へ」（VISA/Master/AMEX/JCB対応）<br />
                 ⑥ <strong style={{ color: "white" }}>カードの名義・カード番号・有効期限（MM/YY）・CVV（裏面3桁）</strong> を入力して「保存」<br />
                 ⑦ 通貨が <strong style={{ color: "white" }}>JPY（日本円）</strong> になっているか確認（USDなら変更）<br />
                 ⑧ 登録したカードが <strong style={{ color: "white" }}>「デフォルト」</strong> になっていればOK
               </span>
+              <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "rgba(255,255,255,.7)" }}>
+                💡 Instagramの設定画面から進むと、自動的にFacebookの「請求と支払い」画面（Metaの広告管理画面）に切り替わることがあります。同じ画面なのでそのまま続行してOKです。
+              </span>
             </span>
 
             <span style={{ display: "block", marginTop: "10px", padding: "10px 12px", background: "rgba(255,255,255,.04)", borderRadius: "8px", borderLeft: "3px solid #888" }}>
-              <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "#aaa", background: "rgba(255,255,255,.1)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>代替手段A</span>
-              <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>📱 PCがない方：スマホブラウザから設定する手順</span>
+              <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "#aaa", background: "rgba(255,255,255,.1)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>代替手段</span>
+              <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>📱 PCがない方：スマホブラウザでInstagramにログイン</span>
               <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.7)", lineHeight: 1.8 }}>
-                ① <strong style={{ color: "white" }}>Safari / Chrome等のブラウザアプリ</strong>を開いて <strong style={{ color: "white" }}>facebook.com</strong> にアクセス<br />
-                ② Instagramと連携しているFacebookアカウントでログイン<br />
-                ③ メニュー → 設定とプライバシー → 広告 → 広告アカウント → <strong style={{ color: "white" }}>「請求と支払い」</strong> を開く<br />
+                ① <strong style={{ color: "white" }}>Safari / Chrome等のブラウザアプリ</strong>を開いて <strong style={{ color: "white" }}>instagram.com</strong> にアクセス<br />
+                ② ご自身のInstagramアカウントでログイン<br />
+                ③ メニュー → <strong style={{ color: "white" }}>「設定」</strong> → <strong style={{ color: "white" }}>「ビジネスツールと管理」</strong> → <strong style={{ color: "white" }}>「広告の支払い」</strong>（または「請求と支払い」）<br />
                 ④ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> をタップ<br />
                 ⑤ <strong style={{ color: "white" }}>「デビットカード・クレジットカード」</strong> を選び「次へ」<br />
                 ⑥ <strong style={{ color: "white" }}>カードの名義・カード番号・MM/YY・CVV</strong> を入力して「保存」<br />
-                ⑦ 通貨が <strong style={{ color: "white" }}>JPY</strong> か、デフォルト設定になっているかを確認
+                ⑦ 通貨が <strong style={{ color: "white" }}>JPY</strong>、登録カードがデフォルトになっているか確認
               </span>
               <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "#FFB74D" }}>
-                ⚠ <strong>Instagramアプリ内のブラウザ</strong>ではなく、必ず<strong>Safari / Chrome等の独立したブラウザアプリ</strong>から開いてください。アプリ内ブラウザだと手数料がかかることがあります。
-              </span>
-            </span>
-
-            <span style={{ display: "block", marginTop: "10px", padding: "10px 12px", background: "rgba(255,255,255,.04)", borderRadius: "8px", borderLeft: "3px solid #888" }}>
-              <span style={{ display: "inline-block", fontSize: "10px", fontWeight: 700, color: "#aaa", background: "rgba(255,255,255,.1)", padding: "2px 8px", borderRadius: "4px", marginBottom: "8px" }}>代替手段B</span>
-              <span style={{ display: "block", fontSize: "12px", fontWeight: 700, color: "white", marginBottom: "8px" }}>📷 Instagramアプリから始める手順</span>
-              <span style={{ display: "block", fontSize: "11.5px", color: "rgba(255,255,255,.7)", lineHeight: 1.8 }}>
-                Facebookの場所が分からない場合は、Instagramから始めてもOKです。<br /><br />
-                ① Instagramアプリを開き、<strong style={{ color: "white" }}>プロフィール</strong>へ<br />
-                ② <strong style={{ color: "white" }}>「プロフェッショナルダッシュボード」</strong> をタップ<br />
-                ③ 下にスクロールして <strong style={{ color: "white" }}>「広告ツール」</strong> をタップ<br />
-                ④ <strong style={{ color: "white" }}>「広告マネージャを開く」</strong>（または「請求」「支払い設定」）をタップ<br />
-                ⑤ ここで <strong style={{ color: "#FFB74D" }}>「ブラウザで開く」</strong> を選択（アプリ内のままだと手数料30%発生のリスク）<br />
-                ⑥ Safari/Chromeで開いたら、Facebookの <strong style={{ color: "white" }}>「請求と支払い」</strong> 画面が表示されます<br />
-                ⑦ <strong style={{ color: "white" }}>「支払い方法を追加」</strong> → デビット/クレジットカードを選択<br />
-                ⑧ <strong style={{ color: "white" }}>カード名義・番号・MM/YY・CVV</strong> を入力して「保存」<br />
-                ⑨ 通貨が <strong style={{ color: "white" }}>JPY</strong>、登録カードがデフォルトになっているか確認
-              </span>
-              <span style={{ display: "block", marginTop: "8px", fontSize: "11px", color: "#FFB74D" }}>
-                ⚠ ⑤で<strong>必ずブラウザに切り替える</strong>こと。Instagramアプリ内のままカード登録すると、Apple/Google経由で30%の手数料が上乗せされる場合があります。
+                ⚠ <strong>Instagramアプリ</strong>からは設定しないでください。必ず<strong>Safari / Chrome等のブラウザアプリを起動</strong>して、そこから <strong>instagram.com</strong> にアクセスしてください。アプリ経由だとApple/Googleの30%手数料が乗ることがあります。
               </span>
             </span>
 
