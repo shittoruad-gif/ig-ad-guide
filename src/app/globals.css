@@ -85,6 +85,8 @@ p + p { margin-top: 8px; }
 .shot-cap .num { flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--brand); color: #fff; font-size: 12.5px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; margin-top: 1px; }
 .shot-cap small { font-size: 12.5px; }
 .shots li > a { display: block; }
+.shots.wide { grid-template-columns: repeat(2, 1fr); }
+.shots.wide img { aspect-ratio: 16 / 11; }
 
 /* 流れ */
 .timeline { list-style: none; position: relative; }
@@ -160,6 +162,9 @@ details[open] > summary::after { transform: translateY(-30%) rotate(-135deg); }
   .shots { grid-template-columns: 1fr; gap: 14px; }
   .shots li { flex-direction: row; align-items: flex-start; gap: 12px; }
   .shots li > a { width: 46%; flex: none; }
+  .shots.wide { grid-template-columns: 1fr; }
+  .shots.wide li { flex-direction: column; }
+  .shots.wide li > a { width: 100%; }
   .shot-cap { font-size: 15px; padding-top: 4px; }
   .trow { grid-template-columns: 1fr; gap: 4px; }
   .trow a { justify-self: start; }

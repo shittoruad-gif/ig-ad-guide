@@ -6,7 +6,6 @@ import { TEMPLATE_GROUPS } from "@/content/templates";
 const UPDATED = "2026年10月";
 const VIDEO_SHOOTING = "https://youtu.be/ypoqf0JSwXs";
 const VIDEO_LOCATION = "https://youtu.be/LXgxH8Xd1oA";
-const IMG_PAYMENT = "https://purring-tricorne-930.notion.site/1e6a85b685b680818b40cad4bdf7965c";
 
 const NAV = [
   ["start", "はじめに"],
@@ -45,12 +44,12 @@ function Steps({ items }: { items: React.ReactNode[] }) {
   );
 }
 
-function Shots({ items }: { items: [string, React.ReactNode][] }) {
+function Shots({ items, dir = "location", wide = false }: { items: [string, React.ReactNode][]; dir?: string; wide?: boolean }) {
   return (
-    <ol className="shots">
+    <ol className={`shots${wide ? " wide" : ""}`}>
       {items.map(([img, text], i) => (
         <li key={img}>
-          <a href={`/location/${img}.jpg`} target="_blank" rel="noopener" aria-label={`手順${i + 1}の画面を大きく見る`}><img src={`/location/${img}.jpg`} alt={`手順${i + 1}の画面`} loading="lazy" /></a>
+          <a href={`/${dir}/${img}.jpg`} target="_blank" rel="noopener" aria-label={`手順${i + 1}の画面を大きく見る`}><img src={`/${dir}/${img}.jpg`} alt={`手順${i + 1}の画面`} loading="lazy" /></a>
           <div className="shot-cap"><span className="num">{i + 1}</span><span>{text}</span></div>
         </li>
       ))}
@@ -200,19 +199,17 @@ export default function Home() {
             <div className="card-head"><span className="badge">3</span><Icon name="card" /><h3>広告費を払うカードの登録</h3></div>
             <Note kind="warn"><b>スマホのInstagramアプリからは登録しないでください。</b>アプリから登録すると、AppleやGoogleの手数料（約30%）が上乗せされることがあります。必ずパソコン、またはスマホのSafari・Chrome（インターネットを見るアプリ）で行ってください。</Note>
             <h4>パソコンで行う場合（おすすめ）</h4>
-            <Steps items={[
-              "パソコンで instagram.com を開き、いつものアカウントでログイン",
-              "左の一覧の「プロフェッショナルダッシュボード」を押す",
-              "右側の「請求と支払い」を押す",
-              "「支払い方法を追加」を押す",
-              "「デビットカード・クレジットカード」を選んで「次へ」",
-              "カードの名前・番号・有効期限・裏の3けたを入れて「保存」",
-              <>お金の単位が「JPY（日本円）」になっているか見る<small>「USD」になっていたら日本円に変えてください</small></>,
-              "登録したカードに「デフォルト」と出ていれば完了",
+            <p className="small">画面の写真は、押すと大きく見られます。</p>
+            <Shots dir="payment" wide items={[
+              ["01", <>パソコンで instagram.com を開いてログインし、自分のプロフィールへ。どれか1つの投稿にマウスをのせて<b>「投稿を宣伝」</b>を押す</>],
+              ["02", <>お知らせが出たら<b>「OK」</b></>],
+              ["03", <>右側を下に進み、<b>「支払い方法」</b>を押す</>],
+              ["04", <><b>「デビットカード・クレジットカード」</b>を選んで<b>「次へ」</b></>],
+              ["05", <>カードの名義・番号・有効期限・裏の3けたを入れて<b>「保存」</b><small>保存したら、この画面は閉じて大丈夫です。広告は出ません。お金もかかりません</small></>],
             ]} />
+            <Note>「投稿を宣伝」の画面で、広告を出すボタンは押さないでください。カードを保存したら、画面を閉じるだけで大丈夫です。お金の単位（日本円になっているか）は、しっとるでも確認します。</Note>
             <h4>パソコンがない場合</h4>
-            <p>スマホのSafariやChromeで instagram.com を開いてログインし、メニューから「プロフェッショナルダッシュボード」→「請求と支払い」→「支払い方法を追加」と進みます。あとはパソコンと同じです。</p>
-            <div className="links"><a className="link" href={IMG_PAYMENT} target="_blank" rel="noopener">画像つきの手順を見る</a></div>
+            <p>スマホのSafariやChromeで instagram.com を開いてログインし、メニューから「プロフェッショナルダッシュボード」→「請求と支払い」→「支払い方法を追加」と進み、「デビットカード・クレジットカード」を選んで、カードの情報を入れて「保存」します。</p>
             <Note>カードの番号は、しっとるには送らないでください。</Note>
             <Done text="カードの登録できました" />
           </div>
