@@ -77,6 +77,15 @@ p + p { margin-top: 8px; }
 .steps .num { flex: none; width: 26px; height: 26px; border-radius: 50%; border: 1.5px solid var(--brand); color: var(--brand); font-size: 13px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; margin-top: 1px; }
 .steps .txt { font-size: 15.5px; color: var(--ink); }
 
+/* 画面つきの手順 */
+.shots { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px 14px; margin: 14px 0 6px; }
+.shots li { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.shots img { width: 100%; aspect-ratio: 3 / 4; object-fit: contain; display: block; border-radius: 10px; border: 1px solid var(--line); background: #111; }
+.shot-cap { display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; line-height: 1.6; color: var(--ink); }
+.shot-cap .num { flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--brand); color: #fff; font-size: 12.5px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; margin-top: 1px; }
+.shot-cap small { font-size: 12.5px; }
+.shots li > a { display: block; }
+
 /* 流れ */
 .timeline { list-style: none; position: relative; }
 .timeline li { display: flex; gap: 14px; padding: 0 0 18px; position: relative; }
@@ -148,6 +157,10 @@ details[open] > summary::after { transform: translateY(-30%) rotate(-135deg); }
   .hero h1 { font-size: 29px; }
   .section h2 { font-size: 22px; }
   .grid2, .grid3, .compare { grid-template-columns: 1fr; }
+  .shots { grid-template-columns: 1fr; gap: 14px; }
+  .shots li { flex-direction: row; align-items: flex-start; gap: 12px; }
+  .shots li > a { width: 46%; flex: none; }
+  .shot-cap { font-size: 15px; padding-top: 4px; }
   .trow { grid-template-columns: 1fr; gap: 4px; }
   .trow a { justify-self: start; }
   .table tbody th { width: 38%; }

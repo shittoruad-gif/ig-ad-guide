@@ -6,7 +6,6 @@ import { TEMPLATE_GROUPS } from "@/content/templates";
 const UPDATED = "2026年10月";
 const VIDEO_SHOOTING = "https://youtu.be/ypoqf0JSwXs";
 const VIDEO_LOCATION = "https://youtu.be/LXgxH8Xd1oA";
-const IMG_LOCATION = "https://purring-tricorne-930.notion.site/1d8a85b685b680f5bddcee62577c2eeb";
 const IMG_PAYMENT = "https://purring-tricorne-930.notion.site/1e6a85b685b680818b40cad4bdf7965c";
 
 const NAV = [
@@ -40,6 +39,19 @@ function Steps({ items }: { items: React.ReactNode[] }) {
         <li key={i}>
           <span className="num">{i + 1}</span>
           <span className="txt">{it}</span>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function Shots({ items }: { items: [string, React.ReactNode][] }) {
+  return (
+    <ol className="shots">
+      {items.map(([img, text], i) => (
+        <li key={img}>
+          <a href={`/location/${img}.jpg`} target="_blank" rel="noopener" aria-label={`手順${i + 1}の画面を大きく見る`}><img src={`/location/${img}.jpg`} alt={`手順${i + 1}の画面`} loading="lazy" /></a>
+          <div className="shot-cap"><span className="num">{i + 1}</span><span>{text}</span></div>
         </li>
       ))}
     </ol>
@@ -166,21 +178,20 @@ export default function Home() {
           <div className="card">
             <div className="card-head"><span className="badge">2</span><Icon name="pin" /><h3>広告を出す場所（現在地）の設定</h3></div>
             <p>広告は「お店から半径◯km」の範囲に出します。お店の場所を真ん中にするため、<b>必ずお店にいるときに、スマホのInstagramアプリ</b>から行います。最初の1回だけです。</p>
-            <Steps items={[
-              "自分の「プロフィール」を開く",
-              "どれか1つの投稿の「投稿を宣伝」を押す",
-              "「ウェブサイトにアクセス」を選ぶ",
-              "「自分で作成」を押す",
-              "オーディエンス名に「しっとる」と入れる",
-              "「地域」を押す",
-              "「ローカル」を押す",
-              "「現在地」にチェックを入れる",
-              "「完了」を押す",
-              "「戻る」を押す",
-              "「キャンセル」を押す",
-              <>「破棄」を押す<small>ここで広告は出ません。お金もかかりません。範囲の設定だけが残ります</small></>,
+            <p className="small">画面の写真は、押すと大きく見られます。</p>
+            <Shots items={[
+              ["01", <>自分のプロフィールから、どれか1つの投稿を開いて<b>「投稿を宣伝」</b>を押す</>],
+              ["02", <>目標の画面は<b>何も変えずに「次へ」</b></>],
+              ["03", <>いちばん下の<b>「自分で作成」</b>を押す</>],
+              ["04", <>オーディエンス名に<b>「しっとる」</b>と入れて、<b>「地域」</b>を押す</>],
+              ["05", <>上の<b>「ローカル」</b>を押す</>],
+              ["06", <><b>「現在地」をオン</b>にする<small>地図の真ん中に、お店の場所の印が出ます</small></>],
+              ["07", <><b>「半径」</b>を、しっとるからお伝えした距離に合わせて、右上の<b>「完了」</b><small>分からなければ、そのままで大丈夫です。あとでこちらで合わせます</small></>],
+              ["08", <>もう一度、右上の<b>「完了」</b>を押す</>],
+              ["09", <>一覧に<b>「しっとる」</b>が出て、選ばれていればできています</>],
+              ["10", <>左上の「＜」で最初の画面まで戻り、<b>「キャンセル」→「破棄」</b><small>ここで広告は出ません。お金もかかりません。作った「しっとる」の範囲は残ります</small></>],
             ]} />
-            <div className="links"><a className="link" href={VIDEO_LOCATION} target="_blank" rel="noopener">手順を動画で見る</a><a className="link" href={IMG_LOCATION} target="_blank" rel="noopener">画像つきの手順を見る</a></div>
+            <div className="links"><a className="link" href={VIDEO_LOCATION} target="_blank" rel="noopener">手順を動画で見る</a></div>
             <Note>「投稿を宣伝」が出てこないときは、Instagramが「プロアカウント」になっていない可能性があります。グループLINEで教えてください。</Note>
             <Done text="現在地の設定できました" />
           </div>
